@@ -1,0 +1,12 @@
+pandas
+SQLAlchemy
+python-dotenv
+watchdog
+openpyxl
+xlrd
+pyxlsb
+psycopg2-binary
+polars
+pyarrow
+python_calamine
+fastexcel

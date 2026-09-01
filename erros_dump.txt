@@ -1,0 +1,15 @@
+2026-08-24 17:44:54.729619 | 012011_817260.csv | Expected 33 fields in line 5519, saw 34
+2026-08-24 17:44:54.197323 | 10 - 2025_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:52.294500 | 10 - 2025_817260.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:48.503140 | 09 - 2025_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:46.422549 | 09 - 2025_817260.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:42.284877 | 08 - 2026_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:42.008054 | 08 - 2026_817260.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:41.446374 | 08 - 2025_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:39.350758 | 08 - 2025_817260.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:34.761954 | 07 - 2026_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:32.219379 | 07 - 2026_817260.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:26.230246 | 07 - 2025_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:23.981043 | 07 - 2025_817260.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:18.388982 | 01 - 2026_835242.csv | cannot safely cast non-equivalent float64 to int64
+2026-08-24 17:44:16.925229 | 01 - 2026_817260.csv | cannot safely cast non-equivalent float64 to int64
