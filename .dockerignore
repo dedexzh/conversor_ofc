@@ -1,0 +1,15 @@
+__pycache__/
+livefolder/__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+README*.md
+.env
+.env.example
+erros_dump.txt
+tests/
+requirements-dev.txt
+pytest.ini

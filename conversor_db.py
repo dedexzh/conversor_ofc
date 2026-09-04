@@ -32,8 +32,13 @@ load_dotenv()
 
 # Configuração da Base (Altere para PostgreSQL/MySQL se necessário)
 # Ex: 'postgresql://postgres:senha@localhost:5432/meubanco'
-DB_URI = os.getenv("DB_URI", "postgresql+psycopg2://postgres:Mandre.21162925@127.0.0.1:5432/testes")
-PASTA_MONITORADA = r"C:\Users\dedex\OneDrive - Anheuser-Busch InBev\testes\GP7 - RELATÓRIOS"
+DB_URI = os.getenv("DB_URI", "postgresql+psycopg2://postgres:postgres@127.0.0.1:5432/testes")
+# Em Docker, aponte para a pasta montada (ex.: /dados); fora do container, cai
+# no caminho local de sempre.
+PASTA_MONITORADA = os.getenv(
+    "PASTA_MONITORADA",
+    r"C:\Users\dedex\OneDrive - Anheuser-Busch InBev\testes\GP7 - RELATÓRIOS",
+)
 
 # Códigos UNB (unidade de negócio) que aparecem no NOME dos arquivos (ex.:
 # "02.03.04_817260.csv" -> UNB 817260), configurados aqui (.env) porque
